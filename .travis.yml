@@ -1,4 +1,5 @@
-services: docker
+services: 
+ - docker
 
-before_install
-- docke-compose up
+before_install:
+ - docker-compose -t maheshkumar6225/docker-node up
