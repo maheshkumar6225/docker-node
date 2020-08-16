@@ -1,0 +1,4 @@
+services: docker
+
+before_install
+- docke-compose up
